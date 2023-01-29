@@ -1,0 +1,51 @@
+[2.045s] Invoking command in '/home/elamrani/ROS2_WS1/build/my_py_pkg': PYTHONPATH=/home/elamrani/ROS2_WS1/build/my_py_pkg/prefix_override:/home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/elamrani/ROS2_WS1/build/my_py_pkg/build
+[2.925s] running develop
+[2.926s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.926s]   warnings.warn(
+[2.929s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.929s]   warnings.warn(
+[3.195s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.16.0-unknown is an invalid version and will not be supported in a future release
+[3.195s]   warnings.warn(
+[3.195s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[3.195s]   warnings.warn(
+[3.196s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[3.196s]   warnings.warn(
+[3.442s] Removing /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages/my-py-pkg.egg-link (link to .)
+[3.482s] Invoked command in '/home/elamrani/ROS2_WS1/build/my_py_pkg' returned '0': PYTHONPATH=/home/elamrani/ROS2_WS1/build/my_py_pkg/prefix_override:/home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/elamrani/ROS2_WS1/build/my_py_pkg/build
+[3.485s] Invoking command in '/home/elamrani/ROS2_WS1/src/my_py_pkg': PYTHONPATH=/home/elamrani/ROS2_WS1/build/my_py_pkg/prefix_override:/home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/elamrani/ROS2_WS1/build/my_py_pkg/build install --record /home/elamrani/ROS2_WS1/build/my_py_pkg/install.log --single-version-externally-managed
+[4.180s] running egg_info
+[4.181s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[4.182s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[4.182s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[4.182s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[4.182s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[4.186s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[4.188s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[4.188s] running build
+[4.188s] running build_py
+[4.188s] copying my_py_pkg/listener.py -> /home/elamrani/ROS2_WS1/build/my_py_pkg/build/lib/my_py_pkg
+[4.189s] copying my_py_pkg/providing_service.py -> /home/elamrani/ROS2_WS1/build/my_py_pkg/build/lib/my_py_pkg
+[4.189s] copying my_py_pkg/talker.py -> /home/elamrani/ROS2_WS1/build/my_py_pkg/build/lib/my_py_pkg
+[4.190s] running install
+[4.190s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.190s]   warnings.warn(
+[4.192s] running install_lib
+[4.193s] creating /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[4.193s] copying /home/elamrani/ROS2_WS1/build/my_py_pkg/build/lib/my_py_pkg/__init__.py -> /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[4.193s] copying /home/elamrani/ROS2_WS1/build/my_py_pkg/build/lib/my_py_pkg/listener.py -> /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[4.193s] copying /home/elamrani/ROS2_WS1/build/my_py_pkg/build/lib/my_py_pkg/providing_service.py -> /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[4.193s] copying /home/elamrani/ROS2_WS1/build/my_py_pkg/build/lib/my_py_pkg/talker.py -> /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[4.199s] byte-compiling /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/__init__.py to __init__.cpython-310.pyc
+[4.200s] byte-compiling /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/listener.py to listener.cpython-310.pyc
+[4.201s] byte-compiling /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/providing_service.py to providing_service.cpython-310.pyc
+[4.201s] byte-compiling /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/talker.py to talker.cpython-310.pyc
+[4.202s] running install_data
+[4.202s] copying package.xml -> /home/elamrani/ROS2_WS1/install/my_py_pkg/share/my_py_pkg
+[4.203s] running install_egg_info
+[4.208s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[4.209s] running install_scripts
+[4.266s] Installing listener script to /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/my_py_pkg
+[4.267s] Installing providing_service script to /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/my_py_pkg
+[4.267s] Installing talker script to /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/my_py_pkg
+[4.268s] writing list of installed files to '/home/elamrani/ROS2_WS1/build/my_py_pkg/install.log'
+[4.318s] Invoked command in '/home/elamrani/ROS2_WS1/src/my_py_pkg' returned '0': PYTHONPATH=/home/elamrani/ROS2_WS1/build/my_py_pkg/prefix_override:/home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/elamrani/ROS2_WS1/build/my_py_pkg/build install --record /home/elamrani/ROS2_WS1/build/my_py_pkg/install.log --single-version-externally-managed

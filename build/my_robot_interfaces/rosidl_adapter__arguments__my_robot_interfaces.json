@@ -1,0 +1,7 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/elamrani/ROS2_WS1/src/my_robot_interfaces:msg/TargetCoordinates.msg",
+    "/home/elamrani/ROS2_WS1/src/my_robot_interfaces:srv/SetLed.srv"
+  ]
+}

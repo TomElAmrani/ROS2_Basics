@@ -1,0 +1,5 @@
+[console_scripts]
+listener = my_py_pkg.listener:main
+providing_service = my_py_pkg.providing_service:main
+talker = my_py_pkg.talker:main
+

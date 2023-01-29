@@ -1,0 +1,36 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.3 (/home/elamrani/ros2_humble/install/ament_cmake/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.4 (/home/elamrani/ros2_humble/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/elamrani/ROS2_WS1/build/my_launch_files
+-- Install configuration: ""
+-- Installing: /home/elamrani/ROS2_WS1/install/my_launch_files/share/ament_index/resource_index/package_run_dependencies/my_launch_files
+-- Installing: /home/elamrani/ROS2_WS1/install/my_launch_files/share/ament_index/resource_index/parent_prefix_path/my_launch_files
+-- Installing: /home/elamrani/ROS2_WS1/install/my_launch_files/share/my_launch_files/environment/ament_prefix_path.sh
+-- Installing: /home/elamrani/ROS2_WS1/install/my_launch_files/share/my_launch_files/environment/ament_prefix_path.dsv
+-- Installing: /home/elamrani/ROS2_WS1/install/my_launch_files/share/my_launch_files/environment/path.sh
+-- Installing: /home/elamrani/ROS2_WS1/install/my_launch_files/share/my_launch_files/environment/path.dsv
+-- Installing: /home/elamrani/ROS2_WS1/install/my_launch_files/share/my_launch_files/local_setup.bash
+-- Installing: /home/elamrani/ROS2_WS1/install/my_launch_files/share/my_launch_files/local_setup.sh
+-- Installing: /home/elamrani/ROS2_WS1/install/my_launch_files/share/my_launch_files/local_setup.zsh
+-- Installing: /home/elamrani/ROS2_WS1/install/my_launch_files/share/my_launch_files/local_setup.dsv
+-- Installing: /home/elamrani/ROS2_WS1/install/my_launch_files/share/my_launch_files/package.dsv
+-- Installing: /home/elamrani/ROS2_WS1/install/my_launch_files/share/ament_index/resource_index/packages/my_launch_files
+-- Installing: /home/elamrani/ROS2_WS1/install/my_launch_files/share/my_launch_files/cmake/my_launch_filesConfig.cmake
+-- Installing: /home/elamrani/ROS2_WS1/install/my_launch_files/share/my_launch_files/cmake/my_launch_filesConfig-version.cmake
+-- Installing: /home/elamrani/ROS2_WS1/install/my_launch_files/share/my_launch_files/package.xml

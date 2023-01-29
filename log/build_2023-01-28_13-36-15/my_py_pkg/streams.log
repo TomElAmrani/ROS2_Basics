@@ -1,0 +1,27 @@
+[1.635s] Invoking command in '/home/elamrani/ROS2_WS1/src/my_py_pkg': PYTHONPATH=/home/elamrani/ROS2_WS1/build/my_py_pkg/prefix_override:/home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/elamrani/ROS2_WS1/build/my_py_pkg/build install --record /home/elamrani/ROS2_WS1/build/my_py_pkg/install.log --single-version-externally-managed
+[2.289s] running egg_info
+[2.290s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[2.290s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[2.291s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[2.291s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[2.291s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[2.293s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.294s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[2.294s] running build
+[2.294s] running build_py
+[2.295s] copying my_py_pkg/listener.py -> /home/elamrani/ROS2_WS1/build/my_py_pkg/build/lib/my_py_pkg
+[2.295s] running install
+[2.295s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.295s]   warnings.warn(
+[2.296s] running install_lib
+[2.298s] copying /home/elamrani/ROS2_WS1/build/my_py_pkg/build/lib/my_py_pkg/listener.py -> /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg
+[2.301s] byte-compiling /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg/listener.py to listener.cpython-310.pyc
+[2.301s] running install_data
+[2.302s] running install_egg_info
+[2.306s] removing '/home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.307s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages/my_py_pkg-0.0.0-py3.10.egg-info
+[2.308s] running install_scripts
+[2.365s] Installing listener script to /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/my_py_pkg
+[2.365s] Installing talker script to /home/elamrani/ROS2_WS1/install/my_py_pkg/lib/my_py_pkg
+[2.365s] writing list of installed files to '/home/elamrani/ROS2_WS1/build/my_py_pkg/install.log'
+[2.397s] Invoked command in '/home/elamrani/ROS2_WS1/src/my_py_pkg' returned '0': PYTHONPATH=/home/elamrani/ROS2_WS1/build/my_py_pkg/prefix_override:/home/elamrani/ROS2_WS1/install/my_py_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/elamrani/ROS2_WS1/build/my_py_pkg/build install --record /home/elamrani/ROS2_WS1/build/my_py_pkg/install.log --single-version-externally-managed
